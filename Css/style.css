@@ -7,7 +7,6 @@ body{
 
 header, footer{
     background-image:url(../images/image2.png);
-    padding:10px;
     width:100%;
 }
 
@@ -29,14 +28,14 @@ p{
     width:30%;
     display:inline-block;
     vertical-align:top;
-    box-sizing:border-box;
+    
 }
 
 .image{
     width:20%;
     display:inline-block;
     vertical-align:top;
-    box-sizing:border-box;
+    
 }
 
 header .image img{
@@ -52,7 +51,7 @@ ul li{
     width:30%;
     display:inline-block;
     vertical-align:top;
-    box-sizing:border-box;
+    
 }
 
 footer{
@@ -65,12 +64,13 @@ footer p{
     width:30%;
     display:inline-block;
     vertical-align:top;
-    box-sizing:border-box;
+   
     margin-left:30px;
 }
 
-iframe {
+iframe{
     display:inline-block;
     vertical-align:top;
-    box-sizing:border-box;
+    
 }
+
