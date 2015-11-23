@@ -1,76 +1,88 @@
-body{
-    background-image:url(../images/image.png);
-    padding:0;
-    margin:0;
-    color:white;
+body {
+    background-image: url(../image/image.png);
+    padding: 0;
+    margin: 0;
 }
-
-header, footer{
-    background-image:url(../images/image2.png);
-    width:100%;
+h3 {
+    font-family: Tahoma, sans-serif;
+    color: #95A5A6;
 }
-
-main{
-    width:90%;
-    margin:auto;
+footer p {
+    display: inline-block;
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+    color: #ECF0F1;
+    width: 30%;
+    margin-top: 5%;
+  
 }
-
-p{
-    text-align:justify;
+.conteneur p {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
 }
-
-.conteneur{
-    margin:15px;
-    padding:10px;
-}
-
-.entete{
-    width:30%;
-    display:inline-block;
-    vertical-align:top;
+.l-header, .l-footer {
+    background-image: url(../image/image3.png);
+    width: 100%;
     
 }
-
-.image{
-    width:20%;
-    display:inline-block;
-    vertical-align:top;
+.l-footer {
+    position: absolute;
+    bottom: 0;
+}
+.l-conteneur {
+    margin: 15px;
+    padding: 10px;
+}
+.l-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 32%;
     
 }
-
-header .image img{
-    width:50%;
+header .image {
+    width: 50%;
 }
-
-ul li{
-    list-style-type:none;
-    color:white;
-}
-
-.colonne{
-    width:30%;
-    display:inline-block;
-    vertical-align:top;
+.titre {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: -7%;
+    font-family: Tahoma, sans-serif;
+    color: #95A5A6;
     
 }
-
-footer{
-    position:absolute;
-    bottom:0;
+.image {
+    display: inline-block;
+    vertical-align: top;
+    
 }
-
-footer p{
-    text-align:center;
-    width:30%;
-    display:inline-block;
-    vertical-align:top;
+img {
+    width: 20%;
+    vertical-align: top;
    
-    margin-left:30px;
+}
+
+.inf {
+    margin-left: 20px;
+}
+
+
+li {
+    font-family: Tahoma,sans-serif;
+    list-style-type: circle;
 }
 
 iframe{
-    display:inline-block;
-    vertical-align:top;
+    display: inline-block;
+    vertical-align: top;
     
 }
-
+a {
+    color: #95A5A6;
+    text-decoration: none;
+    padding-left: 10px;
+}
+  .is-hover:hover {
+      color: #ff0000;
+  }
