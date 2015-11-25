@@ -4,12 +4,12 @@ header{
 	clear:both;
 }
 main{
-	background-image:url("image.png");
+	background-image:url("image2.png");
 	background-attachment:fixed;
 	clear:both;
 }
 footer{
-	background-image:url("image2.png");
+	background-image:url("image.png");
 	background-attachment:fixed;
 	clear:both;
 }
